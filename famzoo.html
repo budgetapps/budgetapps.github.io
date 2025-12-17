@@ -13,21 +13,67 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "FamZoo",
-      "description": "A private family banking system designed to help parents teach children good financial habits using either prepaid cards or virtual tracking.",
-      "image": "/images/famzoo.jpg",
-      "applicationCategory": "FinanceApplication",
-      "offers": {
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "FamZoo",
+    "description": "Family budgeting and prepaid cards designed to teach kids and teens real-world money skills through hands-on experience.",
+    "image": "https://budgetapps.github.io/images/famzoo.jpg",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "iOS, Android, Web",
+    "featureList": [
+      "Family Prepaid Cards",
+      "Automated Allowance",
+      "Chore Tracking",
+      "Parent-Paid Interest",
+      "Expense Sharing",
+      "Savings Goals",
+      "Educational Giving"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "price": "5.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "FamZoo Family Banking",
+    "description": "A private family banking system designed to help parents teach children good financial habits using either prepaid cards or virtual tracking.",
+    "image": "https://budgetapps.github.io/images/famzoo.jpg",
+    "brand": {
+      "@type": "Brand",
+      "name": "FamZoo"
+    },
+    "offers": [
+      {
         "@type": "Offer",
+        "name": "Monthly Plan",
         "price": "5.99",
+        "priceCurrency": "USD",
+        "description": "Full access for the whole family, including up to four prepaid cards and all tracking features"
+      },
+      {
+        "@type": "Offer",
+        "name": "Pay-in-Advance",
+        "price": "2.50",
+        "priceCurrency": "USD",
+        "description": "Significant discounts when you prepay for 6, 12, or 24 months of service upfront"
+      },
+      {
+        "@type": "Offer",
+        "name": "Lifetime Membership",
+        "price": "199.00",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock"
       }
-    }
-    </script>
+    ]
+  }
+]
+</script>
 </head>
 <body>
     <div id="header-placeholder"></div>
